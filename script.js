@@ -20,7 +20,7 @@ document.getElementById("userForm").addEventListener("submit", function(event) {
         return new Promise((resolve, reject)=>{
 			setTimeout(()=>{
 			if(age>=18){
-				resolve(`Welcome,${name}. You can vote.`)
+				resolve(`Welcome, ${name}. You can vote.`);
 			}	
 				else{
 					reject(`Oh sorry ${name}. You aren't old enough.`)
